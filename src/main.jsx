@@ -6,7 +6,8 @@ import Stairs from './components/common/Stairs.jsx'
 
 createRoot(document.getElementById('root')).render(
     <BrowserRouter>
-        <Stairs />
-        <App />
+        <Stairs>
+            <App />
+        </Stairs>
     </BrowserRouter>
 )
